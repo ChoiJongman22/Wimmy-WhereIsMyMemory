@@ -177,20 +177,20 @@
 - 이미지를 터치하게되면 상단 이미지 정보와 하단 옵션이 감춰지게되고, 다시 터치하면 나타나게 된다.
 - 상단의 별 이미지 클릭을 통해 즐겨찾기 이미지를 지정할 수 있다.
 
-![KakaoTalk_20200321_222822495](https://user-images.githubusercontent.com/57826388/77233901-f7616d80-6bed-11ea-9081-d147e6eb4c38.jpg)
+![image](https://user-images.githubusercontent.com/57826388/80965349-55b87780-8e4d-11ea-8b44-7b1d9dd48ed0.png)
 
-![KakaoTalk_20200321_233007949](https://user-images.githubusercontent.com/57826388/77233907-f9c3c780-6bed-11ea-8843-c9c243ad03d6.jpg)
+![image](https://user-images.githubusercontent.com/57826388/80965361-59e49500-8e4d-11ea-8fea-5cb1bc2882f1.png)
 
 <br>
 
 ## 기타 기능
 
-### **이미지 맵 리스트**
+### **즐겨찾기**
 
 - 메인 화면에서 우측 상단 옵션을 통해 즐겨찾기 뷰로 이동할 수 있다.
 - 즐겨찾기가 되어있는 이미지를 출력해준다.
 
-![KakaoTalk_20200321_222818098](https://user-images.githubusercontent.com/57826388/77233896-f597aa00-6bed-11ea-87ac-d540761454a6.jpg)
+![image](https://user-images.githubusercontent.com/57826388/80965372-5e10b280-8e4d-11ea-98ec-c56c243c21ae.png)
 
 <br>
 
@@ -199,7 +199,7 @@
 - 뷰페이저의 하단 옵션에서 삭제를 클릭하면 이미지를 삭제할 수 있다.
 - 삭제는 로컬 저장소의 해당 이미지, 해당 이미지의 ID가 포함된 DB의 모든 데이터가 지워지게 된다.
 
-![KakaoTalk_20200321_222818982](https://user-images.githubusercontent.com/57826388/77233897-f6304080-6bed-11ea-945f-8642708782b0.jpg)
+![image](https://user-images.githubusercontent.com/57826388/80965688-f313ab80-8e4d-11ea-96f6-cd736837ae7f.png)
 
 <br>
 
@@ -220,7 +220,7 @@
 - 태그 입력 버튼을 누르면 자동으로 이미지의 태그들로 다이얼로그를 채운다.
 - 거기서 태그를 추가하거나 지우는 행위를 통해 태그를 직접 조작할 수 있다.
 
-![KakaoTalk_20200321_222820128](https://user-images.githubusercontent.com/57826388/77233899-f6c8d700-6bed-11ea-88e3-b7b5c711e879.jpg)
+![image](https://user-images.githubusercontent.com/57826388/80965379-61a43980-8e4d-11ea-83b4-3fbfd52511a1.png)
 
 <br>
 
