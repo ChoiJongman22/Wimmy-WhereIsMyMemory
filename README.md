@@ -262,7 +262,7 @@
 - 사용자는 메인화면 상단 툴바에 카메라 버튼을 통해 카메라 캡처를 할 수 있다.
 - 캡처한 이미지는 `Pictures/Wimmy` 폴더에 저장된다.
 
-![image](https://user-images.githubusercontent.com/57826388/80075043-09378700-8585-11ea-9046-0a074a65d6f2.png)
+![image](https://user-images.githubusercontent.com/57826388/82113257-a99d5780-978f-11ea-9681-bda83ba4666d.png)
 
 <br>
 
