@@ -54,7 +54,12 @@
 - checkboxData
     - 사진 아이디
     - 체크 정보
-
+    
+- CalendarData
+    - 날짜
+    - 주제
+    - 메모
+    
 <br>
 
 # 주요 일정
@@ -89,6 +94,11 @@
     - 앱 내 광고 삽입
     - 베타 버전 출시
 - 2020\. 05. 02: 정식 버전 출시
+- 2020\. 05. 16: 기능 추가
+    - 폴더 사진 개수표시
+    - 캘린더 UI 변경
+    - 캘린더 태그표시 -> 일정표시
+    - 일정 다이얼로그 추가
 
 ## 예정
 
@@ -100,14 +110,15 @@
 
 ## Folder List
 
-- 유형 별로 분류한 폴더를 출력한다. 사용자는 클릭이벤트를 통해 해당 폴더 내부로 들어갈 수 있다.
+- 유형 별로 분류한 폴더를 출력한다. 폴더에는 특정 분류에 따라 그에 해당하는 레이블을 출력하고, 폴더 내에 있는 사진의 갯수까지 화면에 출력한다.  
+- 사용자는 클릭이벤트를 통해 해당 폴더 내부로 들어갈 수 있다.
 
 ### **로컬 폴더 별 분류**
 
 - 로컬 저장소에 있는 사진들을 폴더 별로 분류하여 이미지를 출력한다.  
 - 가장 기본적인 폴더 별 분류를 이용하여 사용자는 본인의 사진에 대해 조작을 함에 있어서 손쉽게 다가갈 수 있다.
 
-![image](https://user-images.githubusercontent.com/57826388/80075043-09378700-8585-11ea-9046-0a074a65d6f2.png)
+![image](https://user-images.githubusercontent.com/57826388/82113257-a99d5780-978f-11ea-9681-bda83ba4666d.png)
 
 <br>
 
@@ -118,7 +129,7 @@
  - 특징은 Firebase ML kit image labeling API를 통해 추출해낸다.
  - 추가적으로 추출된 특징이 영어이기 때문에 Firebase ML kit translate API를 통해 서비스 지역 언어로 번역하여 삽입된다.
 
-![KakaoTalk_20200321_222826856](https://user-images.githubusercontent.com/57826388/77233905-f92b3100-6bed-11ea-9481-01735dfa924b.jpg)
+![image](https://user-images.githubusercontent.com/57826388/82113259-ad30de80-978f-11ea-8621-836fcab22b3c.png)
 
 <br>
 
@@ -126,9 +137,10 @@
 
 - 달력을 년/월 단위로 볼수있게 출력한다.
 - 달력의 각각의 일자를 클릭하면 해당 날짜의 이미지를 볼 수 있다.
-- 달력에는 해당 날짜에서 가장 많은 비중을 차지하는 태그들을 표기한다. 이를 통해 사용자는 해당 날짜에 어떠한 사진을 찍었는지, 사진은 어떤 특징을 지녔는지 직접 확인하지 않고도 한 눈에 알 수 있다.
+- 달력에는 해당 날짜의 사진 갯수 뿐만 아니라 일정을 표시한다.
+- 일정을 설정하기위한 다이얼로그는 우측 하단 버튼을 누르고 날짜를 클릭하거나, 특정 날짜에 대한 LongClick으로 진입한다.
 
-![KakaoTalk_20200321_222815162](https://user-images.githubusercontent.com/57826388/77233894-f4ff1380-6bed-11ea-8940-6a1af19a7592.jpg)
+![image](https://user-images.githubusercontent.com/57826388/82113272-c0dc4500-978f-11ea-97d8-bcce53970423.png)
 
 <br>
 
@@ -138,7 +150,7 @@
 - 위치는 앱이 실행된 후 백그라운드로 실행되면서 자동으로 로컬 저장소의 사진들의 위치를 추출한다. 그 후, 변환작업을 거쳐 추가 데이터베이스에 삽입되며 사용자의 화면에 출력된다.
 - 위치는 시/군/구로 구분되며 시/군/구로 분류가 불가능할 경우, 국가로 구분한다.
 
-![KakaoTalk_20200321_222817182](https://user-images.githubusercontent.com/57826388/77233895-f4ff1380-6bed-11ea-9720-27394f09f461.jpg)
+![image](https://user-images.githubusercontent.com/57826388/82113308-08fb6780-9790-11ea-8f24-1ba4b19d75de.png)
 
 <br>
 
@@ -238,7 +250,8 @@
 - 유형은 이름, 위치, 태그, 날짜로 이루어지며 검색을 하면 키워드가 포함된 모든 이미지를 고유한 이름으로 출력한다.
 - 검색화면은 메인화면 상단의 돋보기 모양 버튼을 통해 이동할 수 있다.
 
-![KakaoTalk_20200321_222825229](https://user-images.githubusercontent.com/57826388/77233904-f8929a80-6bed-11ea-9eca-d947871daefd.jpg)
+![image](https://user-images.githubusercontent.com/57826388/82113330-2f210780-9790-11ea-8cb9-fd378efaa834.png)
+
 
 <br>
 
@@ -268,6 +281,16 @@
 ![image](https://user-images.githubusercontent.com/57826388/80075077-16ed0c80-8585-11ea-83fe-013fe7747266.png)
 
 ![image](https://user-images.githubusercontent.com/57826388/80075092-1c4a5700-8585-11ea-87e6-a431b02acf87.png)
+
+<br>
+
+### **일정 관리**
+
+- 달력에서 사용자는 우측 하단의 버튼이나, 특정 날짜에 대한 LongClick을 통해 일정 관리 다이얼로그를 호출할 수 있다.
+- 다이얼로그에서는 해당 날짜의 사진들을 둘러보며 주제와 메모를 입력할 수 있다.
+- 입력된 주제는 해당 달력에 표시된다.
+
+![image](https://user-images.githubusercontent.com/57826388/82113351-61326980-9790-11ea-8ef9-1607e53b7a51.png)
 
 <br>
 
