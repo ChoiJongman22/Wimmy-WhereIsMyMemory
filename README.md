@@ -305,6 +305,8 @@
 - 다이얼로그에서는 해당 날짜의 사진들을 둘러보며 주제와 메모를 입력할 수 있다.
 - 입력된 주제는 해당 달력에 표시된다.
 
+![image](https://user-images.githubusercontent.com/57826388/82644034-a270c080-9c4b-11ea-8229-4f4ab7912190.png)
+
 ![image](https://user-images.githubusercontent.com/57826388/82113351-61326980-9790-11ea-8ef9-1607e53b7a51.png)
 
 <br>
