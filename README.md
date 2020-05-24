@@ -255,7 +255,9 @@
 
 - 다음 공유 버튼을 통하여 SNS로 해당 이미지를 공유할 수 있다.
 
-![KakaoTalk_20200321_222821436](https://user-images.githubusercontent.com/57826388/77233900-f6c8d700-6bed-11ea-8b19-9828f2384f7e.jpg)
+![image](https://user-images.githubusercontent.com/57826388/82754768-456f3900-9e0a-11ea-83c0-4be2329d8861.png)
+
+![image](https://user-images.githubusercontent.com/57826388/82754775-4bfdb080-9e0a-11ea-8d14-085e2b029e71.png)
 
 <br>
 
@@ -308,6 +310,20 @@
 ![image](https://user-images.githubusercontent.com/57826388/82644034-a270c080-9c4b-11ea-8229-4f4ab7912190.png)
 
 ![image](https://user-images.githubusercontent.com/57826388/82113351-61326980-9790-11ea-8ef9-1607e53b7a51.png)
+
+![image](https://user-images.githubusercontent.com/57826388/82754794-659ef800-9e0a-11ea-9b5b-e3ec4634a2e1.png)
+
+<br>
+
+### **사진/폴더 개수 관리**
+
+- 메뉴에서 사진 및 폴더의 표시 개수를 설정할 수 있다.
+
+![image](https://user-images.githubusercontent.com/57826388/82754828-9848f080-9e0a-11ea-8b7c-01f4df451734.png)
+
+![image](https://user-images.githubusercontent.com/57826388/82754821-8e26f200-9e0a-11ea-8d7d-a8eb2f42ff12.png)
+
+![image](https://user-images.githubusercontent.com/57826388/82754825-92530f80-9e0a-11ea-921f-e1084f33eebb.png)
 
 <br>
 
